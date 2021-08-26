@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="main">
+  <form onsubmit="register()">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" id="name" >
+    
+    <label for="age"><b>Age</b></label>
+    <input type="text" placeholder="Enter Age" name="age" id="age" >
+
+    <label for="country"><b>Country</b></label>
+    <input type="text" placeholder="Enter Country" name="country" id="country" >   
+    
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" >
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" >
+    
+    <hr>
+
+    <button type="submit"  class="registerbtn">Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="sign_in.html ">Sign in</a>.</p>
+  </div>
+  </form>
+</div>
+<script>
+  function register(){
+    const data = {};
+    data.name= document.getElementById("name").value;
+    data.age= document.getElementById("age").value;
+    data.country= document.getElementById("country").value;
+    data.email= document.getElementById("email").value;
+    data.psw= document.getElementById("psw").value;
+    // Put the object into storage
+    localStorage.setItem('data', JSON.stringify(data));
+  }
+</script>
+</body>
+</html>

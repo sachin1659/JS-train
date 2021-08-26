@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="main">
+  <div class="container">
+    <h1>Profile</h1>
+    <hr>
+    <h4>Name:</h4><p id="name"></p>
+    <hr>
+    <h4>Country:</h4><p id="country"></p>
+    <hr>
+    <h4>Age:</h4><p id="age"></p>
+    <hr>
+    <h4>username:</h4><p id="username"></p>  
+    <hr>
+  </form>
+</div>
+<script>
+  var retrievedObject = localStorage.getItem('data');
+  var lsdata = JSON.parse(retrievedObject);
+ document.getElementById("name").innerHTML=""+lsdata.name;
+ document.getElementById("country").innerHTML=""+lsdata.country;
+ document.getElementById("age").innerHTML=""+lsdata.age;
+ document.getElementById("username").innerHTML=""+lsdata.email;
+</script>
+</body>
+</html>
