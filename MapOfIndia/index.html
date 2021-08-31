@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="text-align: center;">State Map of India</h2>
+<div class="states" >
+    <h2 style="text-align: center;">States</h2>
+    <ul class="a">
+        <li id="andaman">Andaman & Nicobar</li>
+        <li id="andhra">Andhra Pradesh</li>
+        <li id="arunachal">Arunachal Pradesh</li>
+        <li id="assam">Assam</li>
+        <li id="bihar">Bihar</li>
+        <li id="chatisgarh">Chhattisgarh</li>
+        <li id="goa">Goa	</li>
+        <li id="gujrat">Gujarat	</li>
+        <li id="haryana">Haryana	</li>
+        <li id="himachal">Himachal Pradesh</li>
+        <li id="jharkhand">Jharkhand</li>
+        <li id="karnatka">Karnataka</li>
+        <li id="kerala">Kerala</li>
+        <li id="mp">Madhya Pradesh</li>
+        <li id="maharastra">Maharashtra</li>
+        <li id="manipur">Manipur</li>
+        <li id="meghalaya">Meghalaya	</li>
+        <li id="mizoram">Mizoram</li>
+        <li id="nagaland">Nagaland</li>
+        <li id="odisha">Odisha</li>
+        <li id="punjab">Punjab	</li>
+        <li id="rajasthan">Rajasthan</li>
+        <li id="sikkim">Sikkim</li>
+        <li id="tn">Tamil Nadu</li>
+        <li id="telangana">Telangana	</li>
+        <li id="tripura">Tripura</li>
+        <li id="up">Uttar Pradesh	</li>
+        <li id="uttrakhand">Uttarakhand</li>
+        <li id="westbengal">West Bengal</li>
+
+        
+    </ul>
+</div>
+<div id="maps">
+  <div id="map_img">
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+  $("#map_img").removeClass().addClass('india');
+  
+  $('ul li').mouseleave(function(){
+    $("#map_img").removeClass().addClass('india');
+    $(this).css("background-color","");
+  });
+
+  $("#andaman").mouseenter(function(){
+    $("#map_img").removeClass().addClass('andaman');
+    $(this).css("background-color","lightgray");
+  });
+  $("#andhra").mouseenter(function(){
+    $("#map_img").removeClass().addClass('andhra');
+    $(this).css("background-color","lightgray");
+  });
+  $("#arunachal").mouseenter(function(){
+    $("#map_img").removeClass().addClass('arunachal');
+    $(this).css("background-color","lightgray");
+  });
+  $("#assam").mouseenter(function(){
+    $("#map_img").removeClass().addClass('assam');
+    $(this).css("background-color","lightgray");
+  });
+  $("#bihar").mouseenter(function(){
+    $("#map_img").removeClass().addClass('bihar');
+    $(this).css("background-color","lightgray");
+  });
+  $("#chatisgarh").mouseenter(function(){
+    $("#map_img").removeClass().addClass('chatisgarh');
+    $(this).css("background-color","lightgray");
+  });
+  $("#goa").mouseenter(function(){
+    $("#map_img").removeClass().addClass('goa');
+    $(this).css("background-color","lightgray");
+  });
+  $("#gujrat").mouseenter(function(){
+    $("#map_img").removeClass().addClass('gujrat');
+    $(this).css("background-color","lightgray");
+  });
+  $("#haryana").mouseenter(function(){
+    $("#map_img").removeClass().addClass('haryana');
+    $(this).css("background-color","lightgray");
+  });
+  $("#himachal").mouseenter(function(){
+    $("#map_img").removeClass().addClass('himachal');
+    $(this).css("background-color","lightgray");
+  });
+  $("#jharkhand").mouseenter(function(){
+    $("#map_img").removeClass().addClass('jharkhand');
+    $(this).css("background-color","lightgray");
+  });
+  $("#karnatka").mouseenter(function(){
+    $("#map_img").removeClass().addClass('karnatka');
+    $(this).css("background-color","lightgray");
+  });
+  $("#kerala").mouseenter(function(){
+    $("#map_img").removeClass().addClass('kerala');
+    $(this).css("background-color","lightgray");
+  });
+  $("#mp").mouseenter(function(){
+    $("#map_img").removeClass().addClass('mp');
+    $(this).css("background-color","lightgray");
+  });
+  $("#maharastra").mouseenter(function(){
+    $("#map_img").removeClass().addClass('maharastra');
+    $(this).css("background-color","lightgray");
+  });
+  $("#manipur").mouseenter(function(){
+    $("#map_img").removeClass().addClass('manipur');
+    $(this).css("background-color","lightgray");
+  });
+  $("#meghalaya").mouseenter(function(){
+    $("#map_img").removeClass().addClass('meghalaya');
+    $(this).css("background-color","lightgray");
+  });
+  $("#mizoram").mouseenter(function(){
+    $("#map_img").removeClass().addClass('mizoram');
+    $(this).css("background-color","lightgray");
+  });
+  $("#nagaland").mouseenter(function(){
+    $("#map_img").removeClass().addClass('nagaland');
+    $(this).css("background-color","lightgray");
+  });
+  $("#odisha").mouseenter(function(){
+    $("#map_img").removeClass().addClass('odisha');
+    $(this).css("background-color","lightgray");
+  });
+  $("#punjab").mouseenter(function(){
+    $("#map_img").removeClass().addClass('punjab');
+    $(this).css("background-color","lightgray");
+  });
+  $("#rajasthan").mouseenter(function(){
+    $("#map_img").removeClass().addClass('rajasthan');
+    $(this).css("background-color","lightgray");
+  });
+  $("#sikkim").mouseenter(function(){
+    $("#map_img").removeClass().addClass('sikkim');
+    $(this).css("background-color","lightgray");
+  });
+  $("#tn").mouseenter(function(){
+    $("#map_img").removeClass().addClass('tn');
+    $(this).css("background-color","lightgray");
+  });
+  $("#telangana").mouseenter(function(){
+    $("#map_img").removeClass().addClass('telangana');
+    $(this).css("background-color","lightgray");
+  });
+  $("#tripura").mouseenter(function(){
+    $("#map_img").removeClass().addClass('tripura');
+    $(this).css("background-color","lightgray");
+  });
+  $("#up").mouseenter(function(){
+    $("#map_img").removeClass().addClass('up');
+    $(this).css("background-color","lightgray");
+  });
+  $("#uttrakhand").mouseenter(function(){
+    $("#map_img").removeClass().addClass('uttrakhand');
+    $(this).css("background-color","lightgray");
+  });
+  $("#westbengal").mouseenter(function(){
+    $("#map_img").removeClass().addClass('westbengal');
+    $(this).css("background-color","lightgray");
+  });
+    
+});
+</script>
+</body>
+</html>

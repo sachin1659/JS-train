@@ -1,0 +1,171 @@
+.states{
+    height: 1000px;
+    width:30%;
+    background-color: cadetblue;
+    float: left;
+}
+#maps{
+    height: 1000px;
+    width: 70%;
+    background-color: bisque;
+    float: left;
+}
+#map_img{
+    height: 800px;
+    width: 800px;
+    margin:  50px auto;
+}
+ul.a{
+    list-style-type: square;
+}
+
+.india{
+    background: url(india.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.andaman{
+    background: url(andman.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.andhra{
+    background: url(andhra.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.arunachal{
+    background: url(arunachal.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.assam{
+    background: url(assam.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.bihar{
+    background: url(bihar.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.chatisgarh{
+    background: url(chatisgarh.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.goa{
+    background: url(goa.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.gujrat{
+    background: url(gujrat.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.haryana{
+    background: url(haryana.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.himachal{
+    background: url(himachal.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.jharkhand{
+    background: url(jharkhand.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.karnatka{
+    background: url(karnatka.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.kerala{
+    background: url(kerala.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.mp{
+    background: url(mp.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.maharastra{
+    background: url(maharastra.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.manipur{
+    background: url(manipur.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.meghalaya{
+    background: url(meghalaya.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.mizoram{
+    background: url(mizoram.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}   
+.nagaland{
+    background: url(nagaland.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.odisha{
+    background: url(odisha.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.punjab{
+    background: url(punjab.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.rajasthan{
+    background: url(rajasthan.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.sikkim{
+    background: url(sikkim.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.tn{
+    background: url(tn.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.telangana{
+    background: url(telangana.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.tripura{
+    background: url(tripura.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.up{
+    background: url(up.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+} 
+.uttrakhand{
+    background: url(uttrakhand.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+.westbengal{
+    background: url(westbengal.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
